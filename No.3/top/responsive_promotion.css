@@ -1,0 +1,98 @@
+ @media screen and (max-width:540px) {
+  /*画面サイズが540pxまではここを読み込む*/
+  /* 共通 */
+  .smh {
+    display: block;
+  }
+
+  .container0 {
+    width: 100%;
+  }
+
+  .PCdisplay {
+    display: none;
+  }
+
+  .container-first {
+    width: 70%;
+  }
+
+
+
+  /* ヘッダー */
+  .inquiry {
+    width: 70%;
+  }
+
+  /* 商品概要 */
+  .product-introduction {
+    padding: 30px 0 15px 0;
+  }
+
+  .intro-sections {
+    flex-wrap: wrap;
+  }
+
+  .intro-section {
+    width: 100%;
+  }
+
+  .intro-text {
+    text-align: left;
+  }
+
+ /* カメラのメリット */
+ .left-merit,.right-merit {
+    flex-wrap: wrap;
+  }
+
+ .left-merit-text,.right-merit-text {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px 10px 0 10px;
+    order: 2;
+    }
+
+    .right-merit-image,.left-merit-image {
+      width: 100%;
+      order: 1;
+    }
+  /* 活用方法 */
+  .usage {
+    flex-wrap: wrap;
+  }
+  
+  .usage-section {
+    width: 100%;
+  }
+  /* 料金体系 */
+  .fees {
+    flex-wrap: wrap;
+  }
+  
+  .fee {
+    width: 100%;
+  }
+
+  .fee-text {
+    display: block;
+    width: 100%;
+    padding-left: 0;
+  }
+
+  .smhbr {
+    display: block;
+    width: 100%;
+  }
+  /* お問い合わせ */
+  .contact-column {
+   flex-wrap: wrap; 
+   }
+  
+  .column {
+    width:100%;
+    margin: 2% auto;
+  }
+
+  
+}

@@ -1,0 +1,504 @@
+/* 共通 */
+body {
+  font-family: 'Noto Sans JP', sans-serif;
+  color:#6e6c6c;
+  background-color: rgb(231, 229, 229,0.3); 
+}
+
+a {
+  text-decoration: none;
+}
+.smh {
+  display:none;
+}
+
+.PCdisplay {
+  display: block;
+}
+
+.container-first {
+  max-width: 900px;
+  width: 62%;
+  margin: 0 auto; 
+}
+
+.clear {
+  clear: both;
+}
+
+/* ヘッダーCSS */
+header {
+  box-sizing: border-box;
+  /* background-color: rgb(194, 213, 229); */
+  background-image:url(../images_AC/main.jpg);
+  background-size: 100% 100%;
+  background-repeat: repeat-x;
+  animation: bgiLoop 20s linear infinite;
+  width: 100%;
+  padding: 10px 0;
+  color: white;
+  position: relative;
+ }
+
+ /* header::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  background-image:url(../images_AC/main-back.jpg);
+  background-size: 100% 100%;
+  background-repeat: repeat-x;
+  animation: bgiLoop 20s linear infinite;
+ } */
+ 
+@keyframes bgiLoop {
+    0% { background-position: 0 0;}
+  100% { background-position: 20vw 0;}
+}
+
+ .main-top {
+  width: 100%;
+  position: relative;
+}
+
+ .top-left{
+   display: block;
+   padding: 5px;
+   font-size: 20px;
+   font-weight: bold;
+   color: white;
+   /* width:10%; */
+   position:absolute;
+    left: 1%;
+  text-decoration: none;
+ }
+
+ .top-right{
+  display: block;
+  text-align: center;
+  padding: 5px 10px;
+  border-radius: 20px 20px;
+  border:2px solid white;
+  font-size: 16px;
+  color: white;
+  font-weight: bold;
+  position:absolute;
+  right: 1%;
+}
+
+.top-left:hover {
+  text-decoration: none;
+  color: aliceblue;
+}
+
+.top-right:hover {
+  text-decoration: none;
+  color: #6e6c6c;
+  background-color:  rgba(238, 234, 234,1);
+  border: none;
+}
+
+.main {
+  padding: 75px 0 400px 0;
+  width: 100%;
+ }
+
+.maintitle {
+  text-align: center;
+  font-weight: bold;
+  font-size: 36px;
+}
+
+.maininquiry {
+  padding-top: 30px;
+  z-index: 10;
+}
+
+.inquiry {
+  width: 20%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.maininquiry a{
+  display: block;
+  text-align: center;
+  background-color: rgba(238, 234, 234,0.3);
+  padding: 5% 5%;
+  border-radius: 30px 30px;
+  color:rgb(201, 208, 212);
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.maininquiry a:hover {
+  text-decoration: none;
+  color: #6e6c6c;
+  background-color: rgba(238, 234, 234,1);
+}
+/* 商品概要 */
+.product-introduction {
+  padding: 60px 0 30px 0;
+}
+
+.intro-title {
+  color: rgb(0, 132, 255);
+  font-size: 30px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.intro-text {
+  margin-top: 20px;
+  font-size: 16px;
+  text-align: center;
+}
+
+.intro-sections {
+  display: flex;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
+.intro-section {
+  width: 50%;
+  box-sizing: border-box;
+  padding: 0 10px;
+}
+
+.section-title {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.intro-section img {
+  width: 100%;
+  height: 50%;
+  margin: 30px 0;
+}
+
+.section-text {
+  font-size: 16px;
+}
+
+/* カメラのメリット */
+.merits {
+  background-color:rgb(238, 231, 231) ;
+  padding: 60px 0 30px 0;
+}
+
+.merit-title {
+  color: rgb(0, 132, 255);
+  font-size: 30px;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom:20px;
+}
+
+.left-merit,.right-merit {
+  display: flex;
+  margin: 0 auto 10px auto;
+  padding-top: 20px;
+}
+
+.left-merit-text,.right-merit-text {
+  width: 50%;
+  box-sizing: border-box;
+  padding: 10px 10px 0 10px;
+  font-size: 16px;
+}
+
+.left-title,.right-title {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.left-title span, .right-title span {
+  border: 1px solid rgb(0, 132, 255);
+  border-radius: 50%;
+  padding:2px;
+  color: rgb(0, 132, 255);
+  margin-right: 10px;
+}
+
+.right-merit-image,.left-merit-image {
+  width: 50%;
+  height: 50%;
+  box-sizing: border-box;
+  padding: 0 10px;
+}
+
+.left-text,.right-text {
+  margin-top:20px;
+}
+/* mastercameraが選ばれる理由 */
+.reasons {
+  background-color:rgb(255, 253, 253) ;
+  padding: 30px 0 20px 0;
+}
+
+.reason {
+  margin-top: 20px;
+}
+/* 活用方法 */
+.usages {
+  background-color:rgb(238, 231, 231) ;
+  padding: 30px 0 20px 0;
+}
+
+.usage {
+  display: flex;
+  padding: 20px 0.5%;
+  margin: 0 auto;
+}
+
+.usage-section {
+  width: 32%;
+  box-sizing: border-box;
+  padding: 0 1%;
+}
+
+.usage-title {
+  font-size: 18px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.usage-section img {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.section-text {
+  padding-left:2px ;
+  margin-top: 10px;
+  text-align: left;
+  /* list-style-position: inside; */
+  padding-left:20px;
+}
+
+.section-text li {
+  padding-left:0;
+}
+/* 導入実績 */
+.results {
+  background-color:rgb(255, 253, 253) ;
+  padding: 30px 0 20px 0;
+}
+
+.results-text {
+  font-size: 16px;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.results-text2 {
+  font-size: 14px;
+  margin-top: 5px;
+  color: #726f6f;
+}
+/* 料金体系 */
+.fee-structure {
+  background-color:rgb(238, 231, 231) ;
+  padding: 30px 0 20px 0;
+}
+
+.fees {
+  background-color: white;
+  padding: 20px 30px;
+  display: flex;
+}
+
+.fee {
+  width: 50%;
+  box-sizing: border-box;
+}
+
+.fee-title {
+  font-size: 18px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.fee-text {
+  display: inline-block;
+  font-size: 16px;
+  padding-left: 20px;
+  width: 55%;
+  margin: 5px auto;
+}
+
+.smhbr {
+  text-align: left;
+  font-size: 16px;
+  display: inline-block;
+}
+
+.hosoku {
+  vertical-align: super;
+  font-size: 10px;
+}
+
+.yen {
+  margin-left: 2px;
+  /* vertical-align: sub; */
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.money {
+  font-weight: bold;
+}
+
+.hosoku-syousai {
+  margin:10px 0;
+  font-size: 14px;
+  color:#726f6f;
+}
+
+.kome-syousai {
+  margin-right: 5px;
+}
+
+.bold {
+  font-weight: bold;
+  color: black;
+}
+/* よくある質問 */
+.FAQ {
+  background-color:rgb(255, 253, 253) ;
+  padding: 30px 0 30px 0;
+}
+
+.Q_A {
+  margin-top: 20px;
+  display: flex;
+  width: 100%;
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgb(238, 231, 231);
+}
+
+.Q-left {
+  display: block;
+  width: 5%;
+  font-size: 18px;
+  color: rgb(0, 132, 255);
+}
+
+.para-right {
+  width: 95%;
+  margin-top: 3px;
+}
+
+.question {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0 0 10px 0;
+  color: rgb(0, 132, 255);
+}
+
+.answer {
+  font-size: 16px;
+}
+
+.Q_A_hosoku {
+  font-size: 14px;
+}
+/* お問い合わせ */
+.contact {
+  background-color: rgb(85, 165, 240);
+  padding: 30px 50px 30px 50px;
+}
+
+.contact-title {
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.contact-column {
+  display: flex;
+  padding-top: 30px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.column {
+  width:30%;
+  margin:0 2%;
+  background-color: white;
+  box-sizing: border-box;
+  padding: 30px 0;
+  text-align: center;
+}
+
+.column-title {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.phone-number {
+  font-size: 32px;
+  font-weight: bold;
+  color: rgb(85, 165, 240);
+}
+
+.column-text {
+  font-size: 14px;
+}
+
+.column-hosoku {
+  font-size: 12px;
+}
+
+.contact-button{
+  display: block;
+  text-align: center;
+  background-color:rgb(85, 165, 240);
+  width: 60%;
+  margin: 10px auto;
+  padding: 2% 1%;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 30px 30px;
+  color:white;
+  box-shadow: 7px 7px none;
+  transition: all 0.5s;
+}
+
+.contact-button:hover {
+  text-decoration: none;
+  box-shadow: none;
+  position: relative;
+  top:7px;
+}
+/* フッター */
+footer {
+  background-color: rgb(67, 69, 71);
+  padding: 30px 50px 30px 50px;
+  color: white;
+}
+.foot-links {
+  text-align: center;
+}
+
+.foot-links a {
+  font-size: 14px;
+  color: white;
+  margin: 0 5px;
+}
+
+.foot-links a:hover {
+  text-decoration: none;
+}
+
+
+footer p {
+  text-align: center;
+  font-size: 18px;
+  margin: 10px 0;
+}

@@ -1,0 +1,1374 @@
+/* 共通 */
+body {
+  margin: 0;
+  font-family: " Meiryo ";
+}
+
+a {
+  text-decoration: none;
+}
+
+h1,h2,h3,h4,h5,h6,p,a  {
+  margin:0;
+}
+
+.smh {
+  display:none;
+}
+
+
+/* 横幅パターン */
+.container0 {
+  width: 90%;
+  margin: 0 auto;
+}
+
+/* ヘッダーCSS */
+header {
+  width:100%;
+  height:75px; 
+  margin: 0 auto;
+  position:fixed;
+  top: 0;
+  background-color: white;
+}
+
+.title {
+  box-sizing:border-box;
+  height: 75px;
+  padding:20px 0;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.citetitle {
+  font-size:14px;
+  line-height: 24px;
+  letter-spacing: 2px;
+  font-weight: bold;
+  padding-top: 20px;
+  float: left;
+}
+
+.head-logo {
+  float: left;
+  width:128px;
+  margin-right: 5px;
+}
+
+.head-link {
+ font-size:14px;
+ padding:11px 44px;
+ border-radius:20px;
+ float: right;
+ color:white;
+ transition: all 0.5s;
+ box-sizing: border-box;
+ background-color:rgba(218, 107, 100,0.9);
+}
+
+.head-link:hover {
+  background-color:rgba(218, 107, 100,1);
+}
+
+.clear {
+  clear: both;
+}
+
+.subtitle {
+  display: none;
+  box-sizing:border-box;
+  height: 75px;
+  margin: 0 auto;
+  position: relative;
+  width: 100%;
+}
+
+.subleft{
+  width:50%;
+  padding: 10px 0;
+}
+
+.subcitetitle {
+  font-size:10px;
+  line-height: 12px;
+  font-weight: bold;
+ }
+
+.subhead-logo {
+  width:120px;
+  margin-right: 5px;
+}
+
+.siryoulink {
+ font-size:12px;
+ height: 75px;
+ padding:20px 10px;
+ position: absolute;
+ right:0;
+ color:white;
+ text-align:center;
+ transition: all 0.5s;
+ box-sizing: border-box;
+ background-color:rgb(218, 107, 100,0.9);
+}
+.siryoulink span {
+  display: block;
+  font-size: 18px;
+}
+
+.siryoulink:hover {
+  background-color:rgb(218, 107, 100,1);
+}
+
+/* メインタイトル */
+.maintitle {
+  background-image:url("gazo/main.JPG");
+  background-size: 100% 100%;
+  text-align: center;
+  padding:0 15px;
+  margin-top:75px;
+}
+
+.main {
+  padding:100px 0;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.maintop {
+  font-size: 28px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.mainlogo {
+  width:317px;
+  margin-bottom:20px;
+  margin-top: 0;
+}
+
+.mainbottom {
+  font-size: 20px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+/* トップへ戻るボタン */
+#page_top{
+  width: 50px;
+  height: 50px;
+  position: fixed;
+  right: 1%;
+  bottom: 1%;
+  background: #574e52;
+  opacity: 0.6;
+  /* border-radius: 50%; */
+  z-index:10;
+}
+#page_top a{
+  position: relative;
+  display: block;
+  width: 50px;
+  height: 50px;
+  text-decoration: none;
+}
+#page_top a::before{
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  content: '\f106';
+  font-size: 25px;
+  color: #fff;
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  top: -5px;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+  text-align: center;
+}
+
+/* まずは20日間で、月10万稼げるスキルを手に入れよう */
+.mainlink {
+  background-color:#EBB94D;
+  text-align: center;
+  padding:0 15px;
+  color:white;
+}
+
+.mlink {
+  padding:30px 0;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.mltop {
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.whtext {
+  background-color: white;
+  color: red;
+  font-size: 18px;
+  line-height: 26px;
+  width: 30%;
+  font-weight: bold;
+  margin:0 auto 20px auto;
+  padding: 2px 4px;
+}
+
+.mllink {
+  display: block;
+  font-size:28px;
+  padding:30px 10%;
+  border-radius:100px;
+  font-weight: bold;
+  width: 60%;
+  box-sizing: border-box;
+  margin:45px auto;
+  color:white;
+  transition: all 0.5s;
+  background-color:rgb(216,73,64,0.6);
+ }
+ 
+ .mllink:hover {
+   background-color:rgb(216,73,64,1);
+ }
+ 
+
+.mlbottom {
+  font-size: 21px;
+  margin-bottom:20px;
+  margin-top:20px;
+  font-weight: bold;
+}
+
+.msns {
+  margin:10px auto 10px auto;
+  color: white;
+  text-align: center;
+  width:40%;
+  padding:0 10%;
+  box-sizing: border-box;
+}
+
+.mtweet {
+  text-decoration: none;
+  float: left;
+  margin-right: 10px;
+  margin-left:50px;
+  background-color: skyblue;
+  opacity: 0.5;
+  font-size:14px;
+  padding:0 5px;
+  border-radius:5px;
+  margin-top:10px;
+  color: white;
+}
+
+.fa-twitter,.fa-thumbs-up {
+  margin-right: 10px;
+}
+
+.mshare {
+  text-decoration: none;
+  float: left;
+  background-color: blue;
+  margin-right: 10px;
+  font-size:14px;
+  padding:0 5px;
+  border-radius:5px;
+  color: white;
+}
+
+.mtweet:hover {
+  opacity: 1;
+} 
+
+/* エンジニアとして本当の自由を手に入れるには？ */
+.introduction {
+  background-image: url(gazo/introbottom.jpg);
+  background-size: 100% 100%;
+}
+
+.containerintro {
+  padding: 40px 0;
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.yellowwaku {
+  padding: 15px 0;
+  position: relative;
+}
+
+.yellowwaku::before {
+  content:"";
+  width:50px;
+  height:50px;
+  border-top: 5px solid orange;
+  border-left: 5px solid orange;
+  /* z-index: 10; */
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.enjtitle {
+  text-align: center;
+  margin:20px 0 10px 0;
+  font-size: 28px;
+  display: inline-block;
+}
+
+.yellowwaku::after {
+  content:"";
+  width:50px;
+  height:50px;
+  border-right: 5px solid orange;
+  border-bottom: 5px solid orange;
+  display: inline-block;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.Itext {
+  padding: 40px 0;
+}
+
+.introtext { 
+  margin-bottom:24px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.orangeunder {
+  font-weight: bold;
+  border-bottom: 5px solid orange;
+}
+
+/* ノマドエンジニア育成講座iSara[イサラ]とは */
+.nomado {
+  padding:100px 0;
+  position: relative;
+  background-color: rgb(255,165,0,0.1);
+  text-align: center;
+}
+
+.abouticon {
+  position: absolute;
+  top: -5%;
+  left: 48%;
+  margin: 0 auto;
+  background-color: orange;
+  color:white;
+  border-radius: 50%;
+  font-size: 14px;
+  width:5%;
+  padding: 33px 0;
+}
+
+.yellowwaku2 {
+  padding: 15px 0;
+}
+
+.yellowwaku2::before {
+  content:"";
+  width:50px;
+  height:50px;
+  border-top: 5px solid orange;
+  border-left: 5px solid orange;
+  /* z-index: 10; */
+  display: inline-block;
+  margin-bottom: 30px;
+}
+
+.enjtitle2 {
+  text-align: center;
+  margin:20px 150px 10px 150px;
+  font-size: 28px;
+  display: inline-block;
+}
+
+.yellowwaku2::after {
+  content:"";
+  width:50px;
+  height:50px;
+  border-right: 5px solid orange;
+  border-bottom: 5px solid orange;
+  margin-bottom:-50px;
+  /* z-index: 10; */
+  display: inline-block;
+}
+
+
+.nmtext { 
+  margin-top:40px;
+  margin-bottom:20px;
+  font-size: 20px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.nmicons {
+  background-color: white;
+  padding: 20px 0 50px 0;
+  border: 2px solid orange;
+  width:60%;
+  margin: 0 auto;
+}
+
+.iconstitle {
+  margin-bottom:20px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.icons {
+  display: flex;
+  width:60%;
+  margin: 0 auto;
+}
+
+.icon {
+  box-sizing: border-box;
+  padding:0 1%;
+  width:20%;
+  display: inline-block;
+}
+
+.icgazo {
+  height:55px;
+}
+
+.ictext {
+  font-size: 12px;
+  margin:10px 0;
+}
+
+/* iSaraで「基本的なプログラミングスキル」は教えません */
+.steps {
+  text-align: center;
+  color:white;
+  padding:40px 0;
+  background-image: url("gazo/aboutsecondbg.jpg");
+  background-size: cover;
+}
+
+.steptitle {
+  font-size:28px;
+  margin:20px 0;
+}
+
+.steptext {
+  font-size: 20px;
+  margin-bottom:10px;
+}
+
+.steporange {
+  color: orange;
+}
+
+.stepcolumn {
+  margin:10px auto 0 auto;
+  display: flex;
+  width:70%;
+  text-align: center;
+}
+
+.step {
+  background-color: white;
+  padding:30px 30px 20px;
+  width:30%;
+  box-sizing: border-box;
+  margin-right: 5%;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+.stepnumber {
+  background-color: orange;
+  border-radius: 4px;
+  font-size: 16px;
+  margin-bottom:10px;
+}
+
+.sdate,.stodo {
+  color:black;
+}
+
+.sdate {
+  margin: 30px 0 15px 0;
+  font-size: 14px;
+}
+
+.stodo {
+  margin-bottom:10px;
+  font-size: 16px;
+}
+
+.backblue {
+  background-color: #016EA9;
+  padding: 40px 0;
+  text-align: center;
+  color: white;
+}
+
+.bluetext {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* iSaraで学べること */
+.learn {
+  padding: 40px 0;
+  text-align: center;
+}
+
+.Ltitle {
+  font-size: 28px;
+  margin: 20px 0 35px 0;
+}
+
+.Ltitle span {
+  font-size: 16px;
+}
+
+.Lintro {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.Limages {
+  padding: 40px 0;
+  width: 50%;
+  margin: 0 auto;
+  box-sizing: border-box;
+  display: flex;
+}
+
+.Limage {
+  margin: 0 1.5%;
+  display: block;
+  width: 22%;
+}
+
+.Ltext {
+ font-weight: bold;
+ font-size: 16px;
+ margin-bottom: 10px;
+}
+
+/* iSara[イサラ]の3つのメリット */
+.merit {
+  padding:30px 0;
+  position: relative;
+  background-color: rgb(255,165,0,0.1);
+  text-align: center;
+}
+
+.yellowwaku3 {
+  padding: 15px 0;
+}
+
+.yellowwaku3::before {
+  content:"";
+  width:50px;
+  height:50px;
+  border-top: 5px solid orange;
+  border-left: 5px solid orange;
+  /* z-index: 10; */
+  display: inline-block;
+  margin-bottom: 30px;
+}
+
+.enjtitle3 {
+  text-align: center;
+  margin:20px 100px 10px 100px;
+  font-size: 28px;
+  display: inline-block;
+}
+
+.enjtext {
+  text-align: center;
+  margin:20px 0 10px 0;
+  font-size: 20px;
+  display: block;
+}
+
+.yellowwaku3::after {
+  content:"";
+  width:50px;
+  height:50px;
+  border-right: 5px solid orange;
+  border-bottom: 5px solid orange;
+  margin-bottom:-50px;
+  /* z-index: 10; */
+  display: inline-block;
+}
+
+.meritcolumn {
+  width:60%;
+  margin: 30px auto 0 auto;
+  display: flex;
+}
+
+.mtopic {
+  display:inline-block;
+  width:33%;
+  box-sizing: border-box;
+  padding:0 1%; 
+}
+
+.mtopic img {
+  display: block;
+  width: 100%;
+}
+
+.mtitle {
+  font-size:20px;
+  color:#EBB94D;
+}
+
+.mtext {
+  padding:0 5%;
+  font-size: 16px;
+  margin:8px 0;
+  text-align: left;
+}
+
+.backsuport {
+  background-color: white;
+  padding: 30px 0 30px 0;
+  border: 2px solid orange;
+  width:60%;
+  margin: 40px auto 40px auto;
+}
+
+.backtitle {
+  font-size: 28px;
+  margin-bottom: 10px;
+  color: #EBB94D;
+}
+
+.backsub {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.backtext {
+  font-size: 16px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.warning {
+ margin-bottom: 10px;
+ font-size: 14px;
+ width:50%;
+ margin-left: auto;
+ margin-right: auto;
+}
+
+/* 創業メンバー */
+.member {
+  padding:100px 0 50px 0;
+  background-image: url(gazo/teacherbg.jpg);
+  background-size: 100% 100%;
+}
+
+.memtitle {
+  font-size: 28px;
+  margin:20px 0 10px 0;
+  text-align: center;
+  color: white;
+}
+
+.memtext {
+  font-size: 16px;
+  font-weight: bold;
+  margin-top:30px;
+  margin-bottom:10px;
+  color: white;
+  text-align: center;
+}
+
+.memcolumn {
+  width:70%;
+  margin: 30px auto 0 auto;
+  display: flex;
+}
+
+.memtopic {
+  display:inline-block;
+  width:33%;
+  box-sizing: border-box;
+  padding:0 2%; 
+  text-align: center;
+  color:white;
+}
+
+.souface {
+  margin-bottom:-30px;
+  border-radius: 50%;
+}
+
+.soutopic {
+  padding:40px;
+  border:2px solid #FFFFFF;
+  height:270px;
+}
+
+.soutitle {
+  font-size: 16px;
+  margin-bottom:10px;
+  font-weight: normal;
+}
+
+.souname {
+  font-size: 16px;
+  margin-bottom:10px;
+  font-weight: normal;
+}
+
+.soutext {
+  font-size: 16px;
+  margin-bottom:10px;
+  text-align: left;
+}
+/* Q＆A */
+ .triangletitle {
+  padding:40px 0;
+  background-color:#EBB94D;
+  color:white;
+  text-align: center;
+  position: relative;/*親要素基準*/
+}
+
+.QAcircle {
+  font-size: 14px;
+  border-radius: 50%;
+  background-color: white;
+  color: #EBB94D;
+  width:3%;
+  margin: 0 auto;
+  padding: 2% 1%;
+  text-align: center;
+}
+
+.yellowwakuQA {
+  padding: 15px 0;
+}
+
+.yellowwakuQA::before {
+  content:"";
+  width:50px;
+  height:50px;
+  border-top: 5px solid white;
+  border-left: 5px solid white;
+  /* z-index: 10; */
+  display: inline-block;
+  margin-bottom: 30px;
+}
+
+.enjtitleQA {
+  text-align: center;
+  margin:20px 150px 10px 150px;
+  font-size: 28px;
+  display: inline-block;
+}
+
+.yellowwakuQA::after {
+  content:"";
+  width:50px;
+  height:50px;
+  border-right: 5px solid white;
+  border-bottom: 5px solid white;
+  margin-bottom:-50px;
+  /* z-index: 10; */
+  display: inline-block;
+}
+
+
+ /* 背景の三角形化 */
+.tri-border{
+  position: absolute;
+  bottom:-60px; /*ここで位置調整*/
+  z-index:10;
+  width: 100%;
+}
+
+.tri-border span {
+  display: block;
+  width: 0;
+  height:0;
+  border-top: 30px solid #EBB94D;
+  /*▽このかたちの場合色つけ*/
+  border-right: 60px solid transparent;/*▽このかたちの場合透明*/
+  border-bottom: 30px solid transparent;/*▽このかたちの場合透明 */
+  border-left: 60px solid transparent;/*▽このかたちの場合透明*/
+  margin: 0 auto;
+}
+
+/* 実現可能です */
+.jitugen {
+  padding: 40px 0;
+}
+
+.Atitle {
+  font-size: 28px;
+  margin-bottom:10px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.Asub {
+  font-size: 16px;
+  margin-bottom:10px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.Asaiyou {
+  font-size: 14px;
+  margin:20px 0 10px 0;
+  text-align: center;
+}
+
+.saiyousya {
+  width:70%;
+  margin: 0 auto;
+}
+
+.saiperson {
+  padding:20px 0;
+  display: flex;
+}
+
+.pergazo {
+  border:2px solid #EBB94D;
+  width: 20%;
+  margin-left:195px;
+  display: inline-block;
+}
+
+.saicomment {
+  margin: 15px 0 10px 0;
+  color: #777777;
+  display: inline-block;
+  width:35%;
+  margin-left: 5%;
+}
+
+.comment {
+  font-size: 18px;
+}
+
+.comname {
+  font-size: 15.3px;
+  margin-top: 8px;
+  text-decoration: underline;
+  font-style: italic;
+}
+
+/* iSara[イサラ]で学べる内容 */
+.manaberu {
+  text-align: center;
+  color:white;
+  padding:40px 0;
+  background-image: url("gazo/classbg.jpg");
+  background-size: cover;
+}
+
+.manaberutitle {
+  font-size:28px;
+  margin:20px 0 10px 0;
+}
+
+.manaberutext {
+  font-size: 16px;
+  margin-bottom:10px;
+}
+
+.manaberulist {
+    width:50%;
+    margin: 0 auto;
+    /* display: flex; */
+    padding-top: 40px;
+}
+
+.manabulist {
+  display: inline-block;
+  width:35%;
+  margin:0 5%; 
+  border-radius: 5px;
+  background-color: #FFFFFF;
+  text-align: center;
+  border: 2px solid #016EA9;
+  vertical-align:top; /* 上端揃え */
+}
+
+.listtitle {
+  font-size:20px;
+  padding:15px;
+  margin-bottom: 10px;
+  background-color: #016EA9;
+  font-weight: bold;
+}
+
+.lists {
+  padding: 0;
+  margin: 0;
+  
+}
+
+.lists li {
+  font-size: 16px;
+  color:black;
+  font-weight: bold;
+  padding: 10px;
+  list-style: none;
+  border-bottom:1px solid #777777 ;
+  background-color: #FFFFFF;
+}
+
+/* 受講の流れ */
+.jukouflow {
+  padding: 40px 0;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.flowtitle {
+  font-size: 28px;
+  margin:20px 0 10px 0;
+  text-align: center;
+}
+
+.flow {
+  width: 50%;
+  display: block;
+  margin: 40px auto;
+  text-align: center;
+}
+
+.flowcolumn {
+  width:50%;
+  margin: 0 auto;
+  padding: 10px 35px;
+  border-radius: 10px;
+  background-color: #FEF5E0;
+  display: flex;
+}
+
+.flowleft {
+  width:15%;
+  padding: 20px;
+  text-align: center;
+}
+
+.lefttitle {
+  width: 85%;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 20px auto 0 auto;
+}
+
+.flowright {
+  width: 85%;
+  padding-top: 10px;
+  text-align: left;
+}
+
+.righttext {
+  margin: 20px 0;
+  font-size: 16px;
+  font-weight:bold;
+}
+
+.righthosoku {
+  margin: 20px 0;
+  font-size: 14px;
+}
+
+.flowline {
+  display: block;
+  width:35%;
+  margin: 0 auto;
+}
+
+/* ここからスマホ版 */
+.smhsyousai {
+  display: none;
+}
+
+/* なぜバンコクなのか？ */
+.whybankog {
+  padding: 80px;
+  background-image: url(gazo/bangkokbg.jpg);
+  background-size:cover ;
+}
+
+.why {
+  width:55%;
+  margin:0 auto;
+  text-align: left;
+  color:white;
+}
+
+.whytitle {
+  font-size:24px;
+  margin:20px 0;
+}
+
+.whytext {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.bankogmerit {
+  margin:20px 0;
+}
+
+.bankogmerit li {
+  font-size: 16px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.whyfoot {
+  font-size: 20px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+/* iSara受講生への参加特典 */
+.sankatokuten {
+  background-color:#EBB94D;
+  text-align: center;
+  padding:40px 0;
+}
+
+.tokutentitle {
+  font-size: 28px;
+  margin:20px 0 40px 0;
+  text-align: center;
+}
+
+.tokutensub {
+  font-weight: bold;
+  font-size:16px;
+  margin-bottom: 10px;
+}
+
+.whity {
+  color:white;
+}
+
+.tokutens {
+  padding: 40px 0;
+  margin:40px auto 0 auto;
+}
+
+.Ttitle {
+  font-size:28px;
+  position: absolute;
+  top:-5%;
+  left:15%;
+  padding:0 5%;
+  text-align: center;
+  background-color: #EBB94D;
+  box-sizing: border-box;
+  margin: 0 auto 10px auto;
+}
+
+.tokutopic {
+  padding: 40px;
+  position: relative;
+  border:2px solid white;
+  display: flex;
+  width: 50%;
+  margin: 0 auto;
+  /* margin-top:-30px; */
+}
+
+
+.tokuten {
+  width:30%;
+  box-sizing: border-box;
+  margin:0 2.5%;
+  text-align: center;
+  background-color:white;
+  border-radius: 50%;
+  padding:50px 50px;
+}
+
+.tokutitle {
+  font-size:24px;
+  margin-bottom: 10px;
+  color: #EBB94D;
+  vertical-align: middle;
+  font-weight: normal;
+}
+
+.tokutext {
+  font-size: 14px;
+  margin-bottom:10px;
+  font-weight: bold;
+  vertical-align: middle;
+}
+
+/* iSaraはボランティアではありません。 */
+.vol {
+  padding:40px 0;
+  background-image: url(gazo/specialdetail.jpg);
+  background-size: cover;
+  text-align: center;
+  color: white;
+}
+
+.voltitle {
+  font-size: 28px;
+  margin: 20px 0;
+}
+
+.voltext {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom:40px;
+}
+
+.whitewaku {
+  padding: 15px 0;
+  margin: 20px 0;
+}
+
+.whitewaku::before {
+  content:"";
+  width:50px;
+  height:50px;
+  border-top: 5px solid white;
+  border-left: 5px solid white;
+  /* z-index: 10; */
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+.volwaku {
+  text-align: center;
+  margin:20px 150px 20px 150px;
+  font-size: 28px;
+  display: inline-block;
+}
+
+.whitewaku::after {
+  content:"";
+  width:50px;
+  height:50px;
+  border-right: 5px solid white;
+  border-bottom: 5px solid white;
+  margin-bottom:-50px;
+  /* z-index: 10; */
+  display: inline-block;
+}
+
+/* 創業者からのメッセージ */
+.message {
+  padding: 40px 0;
+}
+
+.messtitle {
+  font-size: 28px;
+  margin:20px 0;
+  text-align: center;
+}
+
+.messsub {
+  font-size: 20px;
+  margin-bottom:10px;
+  text-align: center;
+}
+
+.messagecolumn {
+  width:50%;
+  margin: 40px auto 0 auto;
+  display: flex;
+}
+
+.messleft {
+  display: inline-block;
+  width:15%;
+  height: 15%;
+  box-sizing: border-box;
+  margin-right:5%;
+}
+
+.messright {
+  width: 80%;
+  box-sizing: border-box;
+  padding:0 15px;
+}
+
+.messcom {
+  font-size:14px;
+  margin-bottom:10px;
+}
+
+.messlist {
+  padding-left:20px;
+  font-size: 14px;
+}
+
+/* 資料請求フォーム */
+.seikyu {
+  padding:40px 0;
+  background-color: #EBB94D;
+}
+
+.seikyutitle {
+  text-align: center;
+  font-size:28px;
+  margin:20px 0;
+}
+
+.seikyusub {
+  font-size: 16px;
+  margin-bottom: 10px;
+  text-align: center;
+  font-weight:bold;
+}
+
+.forms {
+  width:60%;
+  padding:40px 0;
+  margin: 0 auto;
+  font-size: 14px;
+}
+
+.namebox {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 10px;
+  margin-bottom:25px;
+  height:55px;
+  border-radius:4px;
+  border: none;
+}
+
+.seikyucomment{
+  box-sizing: border-box;
+  width: 100%;
+  padding: 10px;
+  margin-top:25px;
+  margin-bottom:25px;
+  height:100px;
+  border-radius:4px;
+  border: none;
+  font-family: "Meiryo";
+}
+
+.submit {
+  width: 100%;
+  background-color: rgb(218, 107, 100,0.8);
+  margin:10px 0;
+  padding:10px 80px;
+  color: white;
+  font-size: 23px;
+  border-radius: 50px;
+  font-weight: bold;
+  border:none;
+}
+
+.submit:hover{
+  background-color:rgb(218, 107, 100) ;
+}
+/* よくある質問 */
+.FAQ {
+  padding:40px 0;
+}
+
+.FAQtitle {
+  text-align: center;
+  font-size:28px;
+  margin:20px 0 40px 0;
+}
+
+.faq-list {
+  width:60%;
+  margin:0 auto;
+}
+
+.FAQlist {
+  width: 90%;
+  margin: 0 auto;
+  /* padding:20px; */
+  cursor: pointer;
+  margin-bottom:10px;
+}
+
+.question {
+  position:relative;
+  display: inline-block;
+  width: 100%;
+  margin: 0 auto;
+  padding:20px;
+  font-size:20px;
+  font-weight:bold;
+  border: 1px solid #ECECEC;
+  box-sizing: border-box;
+  border-radius:5px;
+}
+
+.question:hover {
+  text-decoration: underline;
+}
+
+.fa-question-circle {
+  color:blue;
+}
+
+.right {
+  position: absolute;
+  right:10px;
+  padding-top:10px;
+}
+
+.answer {
+  display:none;
+  font-weight: bold;
+  font-size:16px;
+  padding: 20px;;
+  border-bottom:1px solid #f7f7f7;
+}
+
+.open {
+  display: block;
+}
+
+/* フッター */
+footer {
+  padding:40px 15px 20px 15px;
+  background-color: #ECECEC;
+  text-align: center;
+}
+
+.foottext {
+  font-size: 10px;
+  padding-bottom: 5px;
+}
+
+.foottext2 {
+  font-size: 10px;
+  padding: 10px 0 5px 0;
+}
+
+.flink {
+  text-decoration: underline;
+  color: #016EA9;
+}

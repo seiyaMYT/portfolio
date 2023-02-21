@@ -1,0 +1,312 @@
+ @media screen and (max-width:540px) {
+  /*画面サイズが540pxまではここを読み込む*/
+  /* 共通 */
+  .smh {
+    display: block;
+  }
+
+  .container0 {
+    width: 100%;
+  }
+
+  .PCdisplay {
+    display: none;
+  }
+
+  /* ヘッダー */ 
+  .nav-bar {
+    width: 90%;
+  }
+
+  .head-left {
+    padding: 20px 0 15px 0;
+    width: 150px;
+  }
+
+  .nav-menu {
+    width: 50%;
+    margin-left: 2%;
+  }
+
+  .menu {
+    font-size: 12px;
+    padding: 10px 10px 0 10px;
+  }
+
+  .phone-number {
+    font-size: 14px;
+    padding: 20px 5px 0 5px;
+    margin-left: 5%;
+  }
+
+
+  /* メインCSS */
+  .main {
+    padding: 50px 20px;
+  }
+
+  .main-text {
+    font-size: 24px;
+    writing-mode: initial;
+    margin: 10px auto 0 auto;
+    padding-left:20px ;
+  }
+
+  .main-information {
+    padding: 10px 10px;
+    width: 90%;
+    margin: 30px auto 0 auto;
+  }
+
+  .maininfo-left {
+    padding:15px 0 0 0 ;
+  }
+  
+  .info-phone {
+    font-size: 20px;
+  }
+  
+  .info-phone span {
+    font-size: 20px;
+  }
+  
+  .clinic-adress {
+    font-size: 14px;
+  }
+
+   .clinic-schedule tr {
+     text-align: center;
+     font-size: 14px;
+   }
+  
+   .clinic-schedule th {
+    border-bottom:1px solid rgb(159, 144, 187);
+    padding: 5px 0;
+   }
+  
+   .column {
+     width: 8em;
+     color: #7c7777;
+   }
+  
+  .hosoku-text {
+    font-size: 10px;
+  }
+  /* お知らせ欄 */
+  .news {
+    width: 70%;
+  }
+ 
+  .news-title {
+    font-size: 20px;
+  }
+
+  .news-img {
+    height: 100px;
+    width: 50%;
+  }
+
+  .slick-next {
+    right: 5px;
+  }
+  
+  .slick-prev {
+    left: 5px;
+  }
+  /* 院長あいさつ */
+   .director-comment {
+     width: 90%; 
+  }
+
+   .left-comment {    
+     width: 50%;
+     padding: 50px 10px 10px 10px;
+   }
+
+   .comment-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin:  10px 0 5px 0;
+  }
+
+   .comment {
+    font-size: 14px;
+    padding: 20px 0 20px 0 ;
+    line-height:28px;
+  }
+
+   .right-photo {
+    width: 50%;
+    padding: 70px 10px 10px 10px;
+  }
+
+  /* 久保田クリニック3つの特徴 */
+.clinic-feature {
+  width: 90%;
+}
+
+.feature-title {
+  font-size: 24px;
+}
+
+.feature-point {
+  flex-wrap: wrap;
+}
+
+.left-img {
+  width: 100%;
+  padding: 30px 10px 10px 10px;
+}
+
+.right-point {
+  width: 100%;
+  padding: 30px 10px 10px 10px;
+}
+
+.left-point {
+  order: 2;
+  width: 100%;
+  padding: 30px 10px 10px 10px;
+}
+
+.right-img {
+  order: 1;
+  width: 100%;
+  padding: 30px 10px 10px 10px;
+}
+
+/* 診療メニュー */
+.clinic-menu {
+  padding: 30px 0;
+}
+
+.menu-title {
+  position: absolute;
+   top:-8%;
+   left: 35%;
+}
+
+.C-menus {
+  padding-top:30px;
+  width: 95%;
+}
+
+.menu-number {
+  position: absolute;
+  top: -10%;
+  left:38%;
+ font-size: 14px;
+}
+
+.C-menu img {
+  margin:10px auto 5px auto;
+  width: 40%;
+  height: 40%;
+}
+
+.menu-text  {
+  font-size: 12px;
+}
+
+.menu-text2 {
+  font-size: 12px;
+}
+
+/* アクセス、営業時間 */
+footer {
+  padding-top: 50px;
+}
+
+.access-and-schedule {
+  padding:10px 0;
+  width: 90%;
+}
+
+.foot-information {
+  flex-wrap: wrap;
+}
+
+.foot-left {
+  width: 100%;
+}
+
+.left-parking {
+  width: 30%;
+  padding: 10px 10px;
+}
+
+.left-parking img {
+  width: 100%;
+  border-radius: 50%;
+  border:3px solid #000;
+}
+
+.left-parking p {
+  text-align: center;
+  margin-top: 5px;
+  background-color: black;
+  color: #fff;
+}
+
+.right-tel {
+  width: 70%;
+  padding: 0 10px;
+}
+
+.right-bb-text {
+  font-size: 14px;
+}
+.tel-text {
+  font-size: 24px;
+}
+
+.foot-right {
+  width: 100%;
+}
+
+.foot-links {
+  width: 95%;
+}
+
+.foot-links a {
+  display: block;
+  width: 50%;
+  box-sizing: border-box;
+  padding-right: 10px;
+}
+
+.foot-logo {
+  width: 100%;
+  background-color: white;
+} 
+
+.foot-links p {
+  width: 50%;
+  padding: 10px;
+  font-size: 14px;
+}
+
+.foot-end {
+  text-align: center;
+  font-size: 14px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+}

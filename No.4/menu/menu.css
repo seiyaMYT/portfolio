@@ -1,0 +1,399 @@
+/* 共通 */
+body {
+  font-family: "Roboto","Noto Sans JP","Yu Gothic";
+  color:#3E3E3E;
+  background-color: rgb(231, 229, 229,0.3);
+}
+
+a {
+  text-decoration: none;
+}
+
+.smh {
+  display:none;
+}
+
+.PCdisplay {
+  display: block;
+}
+
+.container0 {
+  max-width: 1170px;
+  width: 62%;
+  margin: 0 auto; 
+  padding: 0 15px;
+}
+
+.clear {
+  clear: both;
+}
+
+/* ヘッダーCSS */
+header {
+  background-image: url(gazo/back3.jpg);
+  background-size: cover;
+  padding-bottom: 250px;
+}
+
+.head-frame {
+  width: 100%;
+  padding: 15px 20px;
+  box-sizing: border-box;
+}
+
+.head-bar {
+  padding: 0 40px;
+  background-color: white;
+  font-size: 16px;
+  border-radius: 10px;
+  position: relative;
+}
+
+.head-left {
+  width: 199px;
+  display: inline-block;
+  margin: 20px 0;
+}
+
+.head-right {
+  display: inline-flex;
+  width: 55%;
+  position: absolute;
+  right: 40px;
+  margin-top: 15px;
+}
+
+.head-link {
+  display: block;
+  font-size: 16.8px;
+  padding: 13.44px 3.36px;
+  margin-right: 10.08px;
+  color: #121212;
+  position: relative;
+  font-weight: bold;
+}
+
+.t_link_hidden{
+  list-style: none;
+  opacity: 0;
+  z-index: -1;
+  text-align: left;
+  width: 17em;   /* emでやると文の長さに関係なく  */
+  position: absolute;
+   top:100%;
+  background-color: white;
+  padding: 16px 32px;
+  font-weight: bold;
+}
+
+.hidden-link1 {
+  font-size: 16px;
+  padding: 6.4px;
+  margin-bottom: 6.4px;
+  font-weight: bold;
+}
+
+.head-link:hover .t_link_hidden,.t_link_hidden:hover {
+  opacity: 1;
+  z-index: 10;
+}
+
+.free-consul-link {
+  font-size: 16.8px;
+  color: #FFFFFF;
+  background-color: #F35757;
+  padding: 15px 30px;
+  font-weight: bold;
+  display: block;
+  border-radius: 50px;
+}
+
+.free-consul-link:hover {
+  opacity: 0.7;
+}
+
+.main-frame {
+  padding: 200px 0 100px 100px;
+}
+
+.main-title {
+  font-size: 78.4px;
+  color: #FFFFFF;
+  line-height: 85px;
+}
+
+.trophys {
+  margin-bottom: 40px;
+}
+
+.trophys img {
+  width: 200px;
+}
+
+.main-links {
+  display: flex;
+  position: relative;
+}
+
+.main-link,.main-link2 {
+  font-size: 38.4px;
+  font-weight: bold;
+  display: block;
+  border-radius: 40px;
+  margin-right: 30px;
+}
+
+.main-link {
+  color: #FFFFFF;
+  background-color: #F35757;
+  padding: 19.2px 84.88px 19.2px 46.08px;
+  position: relative;
+  box-shadow: 1px 5px #9e3a3a;
+}
+
+.main-link:hover, .main-link2:hover {
+  box-shadow: none;
+  position: relative;
+   top:5px;
+   right:1px;
+  opacity: 0.9;
+}
+
+.main-link2 {
+  color: #11376B;
+  background-color: #FFFFFF;
+  padding: 19.2px 76.8px 19.2px 46.08px;
+  position: relative;
+  box-shadow: 1px 5px #11376B;
+}
+
+.main-link span,.main-link2 span {
+  position: absolute;
+  right: 40px;
+  top:30px;
+}
+
+.cmicon {
+  position: absolute;
+  right: 100px;
+  width: 277px;
+  transition: all 0.5s;
+}
+
+.cmicon:hover {
+  transform: rotateZ( 15deg ) ;
+}
+
+/* テレビCM欄 */
+.TVimages {
+  padding: 20px 20px 8px 20px;
+  box-sizing: border-box;
+}
+
+.TVimage {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.hosoku1 {
+  font-size: 10px;
+  margin-bottom: 10px;
+  padding-left: 10px;
+  color: #C4C4C4;
+}
+
+.first-view {
+  padding: 32px 95.14px 0 95.14px;
+}
+
+.views {
+  width: 55%;
+  margin: 0 auto;
+  display: flex;
+}
+
+.view {
+  width: 49%;
+  list-style: none;
+  border: 1px solid #C4C4C4;
+  border-radius: 5px;
+  display: flex;
+  transition: all 0.5s;
+}
+
+.view:hover {
+  border: 3px solid #11376B;
+}
+
+.view:hover .view-text {
+  opacity: 0.8;
+}
+
+.view:hover .view-image img {
+  transform: scale(1.1,1.1);
+}
+
+.view-image {
+  width: 128px;
+  height: 128px;
+  overflow:hidden;
+}
+
+.view-image img {
+  width: 128px;
+  height: 128px;
+}
+
+.view-text {
+  font-size: 20px;
+  padding: 16px 14.03px;
+  color: #11376B;
+  line-height: 96px;
+} 
+
+.ml20 {
+  margin-left: 20px;
+}
+
+/* テックキャンプとは */
+.site-intro {
+  padding: 60px 0;
+  text-align: center;
+}
+
+.intro-text {
+  font-size: 16px;
+}
+
+.intro-title {
+  font-size: 27.2px;
+  color: #11376B;
+}
+
+.intro-text2 {
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.fb {
+  font-weight: bold;
+}
+
+.learning-steps {
+  display: flex;
+  margin-top: 50px;
+}
+
+.learning-step {
+  padding: 25px 20px;
+  width: 33%;
+}
+
+.num1 {
+  background-image: url(gazo/step1.jpg);
+  background-size: cover;
+  background-color:rgba(255,255,255,0.8);
+  background-blend-mode:lighten;
+}
+
+.num2 {
+  background-image: url(gazo/step2.jpg);
+  background-size: cover;
+  background-color:rgba(255,255,255,0.8);
+  background-blend-mode:lighten;
+}
+
+.num3 {
+  background-image: url(gazo/step3.jpg);
+  background-size: cover;
+  background-color:rgba(255,255,255,0.8);
+  background-blend-mode:lighten;
+}
+
+.step-num1 {
+  font-size: 22px;
+  color: white;
+  background:linear-gradient(90deg,#32598B 0%,#32598B 50%,
+  #11376B 50%,#11376B 100%);
+  border-radius: 50%;
+  width: 52px;
+  height: 52px;
+  margin: 0 auto;
+  line-height: 52px;
+  font-weight: bold;
+}
+
+.step-title {
+  font-size: 18px;
+  margin-top: 10px;
+  color: #11376B;
+}
+
+.step-text {
+  margin-top: 10px;
+  font-size: 13px;
+  font-weight: bold;
+  text-align: left;
+}
+
+.step-angle {
+  display: block;
+  margin: 86.5px 5px;
+  color: #11376B;
+  font-size: 32px;
+}
+
+/* ホリエモンと対談 */
+.r25-section {
+  background-image: url(gazo/r25-bg.jpg);
+  background-size: cover;
+  background-color:rgba(255,255,255,0.7);
+  background-blend-mode:lighten;
+}
+
+.r25 {
+  padding: 60px 0;
+}
+
+.r25-text {
+  padding: 0 15px;
+  margin: 0 auto 24px auto;
+}
+
+.r25-mb-10 {
+  margin:0 auto 10px auto;
+  width: 600px;
+  text-align: center;
+}
+
+.r25-mb-10 img {
+  width: 600px;
+  margin: 0 auto;
+}
+
+.r25-text1 {
+  display: block;
+  width: 700px;
+  margin: 0 auto;
+}
+
+.r25-movie {
+  width: 750px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.r25-movie img {
+  width: 750px;
+  margin: 0 auto;
+}
+
+.r25-btn {
+  margin: 20px auto 0 auto;
+}
+
+.r25-btn img {
+  display: block;
+  width: 500px;
+  margin: 0 auto;
+}

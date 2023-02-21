@@ -1,0 +1,782 @@
+ @media screen and (max-width:540px) {
+  /*画面サイズが540pxまではここを読み込む*/
+  .smh {
+    display: block;
+  }
+
+  /* ヘッダー */
+  .container0 {
+    width: 100%;
+  }
+
+  .title {
+    display:none;
+  }
+
+  .subtitle {
+    display: flex;
+    position: relative;
+    padding-left:10px;
+  }
+
+  /* メインタイトル*/
+  .main {
+  padding: 20px 0;
+  }
+
+  .maintop{
+    font-size: 18px;
+    margin-bottom: 0;
+  }
+
+  .mainlogo {
+    margin:20px 0;
+    width: 300px;
+  }
+
+  .mainbottom {
+    font-size: 15px;
+    margin-bottom:0;
+  }
+  /* まずは20日間で、月10万稼げるスキルを手に入れよう*/
+  .mlink {
+    padding:15px 0;
+  }
+
+  .mltop {
+    font-size:15px;
+  }
+
+  .whtext {
+    font-size: 13.5px;
+    line-height:18px;
+    width:70%;
+  }
+
+  .mllink {
+    font-size: 20px;
+    width: 90%;
+    margin:25px 20px 10px 20px;
+  }
+
+  .mlbottom {
+    font-size:15px;
+  }
+  .msns {
+    width: 100%;
+  }
+
+  /* エンジニアとして本当の自由を手に入れるためには？*/
+  .introduction {
+    background-image: url(gazo/introbottom.jpg);
+    background-size: 120% 100%;
+  }
+  
+  .containerintro {
+    width: 100%;
+    padding:30px 0;
+  }
+  .enjtitle {
+   font-size: 18px;
+   margin: 0 75px;
+  }
+
+  .yellowwaku::before {
+    width: 30px;
+    height: 30px;
+  }
+
+  .yellowwaku::after {
+    width: 30px;
+    height: 30px;
+    margin-bottom:-20px;
+  }
+
+  .introtext {
+    font-size: 15px;
+  }
+
+  /* ノマドエンジニア育成講座iSara[イサラ]とは*/
+  .nomado {
+    padding:40px 0;
+  }
+  
+  .abouticon {
+    position: absolute;
+    top: -5%;
+    left: 45%;
+    font-size: 12px;
+    width:12%;
+    padding: 22px 0;
+    box-sizing: border-box;
+  }
+
+  .enjtitle2 {
+    margin:20px 110px 10px 110px;
+    font-size: 18px;
+    display: inline-block;
+  }
+
+  .yellowwaku2::before {
+    width: 30px;
+    height: 30px;
+  }
+
+  .yellowwaku2::after {
+    width: 30px;
+    height: 30px;
+    margin-bottom:-20px;
+  }
+
+  .nmtext { 
+    margin-top:15px;
+    margin-bottom:10px;
+    font-size: 15px;
+  }
+
+  .nmicons {
+    padding: 10px;
+    width:90%;
+  }
+
+  .iconstitle {
+    margin-bottom:10px;
+    font-size: 15px;
+  }
+
+  .icons {
+    width: 90%;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .icon {
+    width:25%;
+  }
+
+  .icgazo {
+    height:30px;
+  }
+
+  .ictext {
+    font-size: 10px;
+  }
+/* ノマドエンジニア育成講座iSara[イサラ]とは*/
+.steps {
+  padding:30px;
+}
+
+.steptitle {
+  font-size:18px;
+}
+
+.steptext {
+  font-size:13px;
+}
+
+.stepcolumn {
+  width:90%;
+  flex-wrap: wrap;
+}
+
+.step {
+  width: 100%;
+  padding: 15px 50px;
+  margin-right: 0;
+  margin-bottom: 15px;
+}
+
+.stepnumber {
+  font-size: 12px;
+}
+
+.sdate {
+  font-size: 12px;
+  margin: 15px 0 5px 0;
+}
+
+.stodo {
+  margin: 0;
+  font-size: 12px;
+}
+
+.backblue {
+  padding: 20px 0;
+}
+
+.bluetext {
+  font-size: 12px;
+}
+/* iSaraで学べること */
+.learn {
+  padding:20px 0;
+}
+
+.Ltitle {
+  font-size: 18px;
+}
+
+.Ltitle span {
+  font-size: 12px;
+}
+
+.Lintro {
+  font-size:15px;
+}
+
+.Limages {
+  box-sizing: border-box;
+  width: 92%;
+  padding:0 50px;
+  margin-bottom:15px;
+}
+
+.Limage {
+  margin: 0 0.2%;
+  width: 23%;
+}
+
+.Ltext {
+  font-size: 12px;
+ }
+/* iSara[イサラ]の3つのメリット */
+.enjtitle3 {
+  margin:0 70px 10px 70px;
+  font-size: 18px;
+  padding: 10px;
+}
+
+.enjtext {
+  font-size: 15px;
+}
+
+.yellowwaku3::before {
+  width: 30px;
+  height: 30px;
+  margin-bottom: 50px;
+}
+
+.yellowwaku3::after {
+  width: 30px;
+  height: 30px;
+  margin-bottom:-20px;
+}
+
+.meritcolumn {
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.mtopic {
+  width: 100%;
+  padding: 0 2.5%;
+}
+
+.mtitle {
+  font-size:15px;
+}
+
+.mtext {
+  padding:0;
+  font-size: 12px;
+}
+
+.backsuport {
+  padding: 15px;
+  width:90%;
+  margin: 15px auto;
+}
+
+.backtitle {
+  font-size: 18px;
+ }
+
+.backsub {
+  font-size: 15px;
+}
+
+.backtext {
+  font-size: 10px;
+}
+
+.warning {
+  font-size: 12px;
+  width: 100%;
+  padding: 0 10px;
+  box-sizing: border-box;
+}
+/* 創業メンバー */
+.member {
+  padding:20px 0;
+  background-image: url(gazo/teacherbg.jpg);
+  background-size: 100% 100%;
+}
+
+.memtitle {
+  font-size: 18px;
+}
+
+.memtext {
+  font-size: 12px;
+  margin-top:30px;
+  margin-bottom:10px;
+}
+
+.memcolumn {
+  width:100%;
+  padding:0 15px;
+  box-sizing: border-box;
+  flex-wrap: wrap;
+}
+
+.memtopic {
+  width:100%;
+  margin-bottom: 10px;
+}
+
+.souface {
+  border-radius: 50%;
+  width: 25%;
+  margin: 0 auto -50px auto;
+}
+
+.soutopic {
+  padding:40px 10px 10px 10px;
+  border:2px solid #FFFFFF;
+  height: auto;
+}
+
+.soutitle,.souname,.soutext {
+  font-size: 12px;
+}
+
+/* Q＆A */
+.triangletitle {
+  padding:20px 0;
+}
+
+.QAcircle {
+  font-size: 12px;
+  width:5%;
+  padding: 2% 1%;
+}
+
+.yellowwakuQA {
+  padding: 15px 0;
+}
+
+.yellowwakuQA::before {
+  width:30px;
+  height:30px;
+  margin-bottom: 30px;
+}
+
+.enjtitleQA {
+  margin:0 90px 0 90px;
+  font-size: 14px;
+}
+
+.yellowwakuQA::after {
+  width:30px;
+  height:30px;
+  margin-bottom:-10px;
+}
+
+/* 背景の三角形化 */
+.tri-border{
+  position: absolute;
+  bottom:-20px; /*ここで位置調整*/
+  z-index:10;
+  width: 100%;
+}
+
+.tri-border span {
+  display: block;
+  width: 0;
+  height:0;
+  border-top: 10px solid #EBB94D;
+  /*▽このかたちの場合色つけ*/
+  border-right: 20px solid transparent;/*▽このかたちの場合透明*/
+  border-bottom: 10px solid transparent;/*▽このかたちの場合透明 */
+  border-left: 20px solid transparent;/*▽このかたちの場合透明*/
+  margin: 0 auto;
+}
+
+/* 実現可能です */
+.jitugen {
+  padding: 20px 0;
+}
+
+.Atitle {
+  font-size: 18px;
+}
+
+.Asub {
+  font-size: 12px;
+}
+
+.Asaiyou {
+  font-size: 12px;
+}
+
+.saiyousya {
+  width:95%;
+  margin: 0 auto;
+}
+
+.saiperson {
+  flex-wrap: wrap;
+}
+
+.pergazo {
+  width: 40%;
+  margin-left:0;
+  box-sizing: border-box;
+}
+
+.saicomment {
+  margin: 15px 0 10px 0;
+  color: #777777;
+  display: inline-block;
+  width:45%;
+  margin-left: 5%;
+}
+
+/* iSara[イサラ]で学べる内容 */
+.manaberu {
+  padding:20px 0;
+}
+
+.manaberutitle {
+  font-size:18px;
+}
+
+.manaberutext {
+  font-size: 12px;
+}
+
+.manaberulist {
+    width:95%;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+
+.manabulist {
+  display: block;
+  width:95%;
+  margin:0 auto 10px auto; 
+}
+
+.listtitle {
+  font-size:15px;
+}
+
+.lists li {
+  font-size: 12px;
+}
+
+
+/* 受講の流れ */
+.jukouflow {
+  padding: 20px 0;
+}
+
+.flowtitle {
+  font-size: 18px;
+}
+
+.flow,.flowsyousai,.flowline {
+  display: none;
+}
+
+/* ここからスマホ版 */
+.smhsyousai {
+  display: block;
+}
+
+.flow-list {
+  width:95%;
+  margin:0 auto;
+  
+}
+
+.flowlist {
+  width: 100%;
+  margin: 0 auto;
+  cursor: pointer;
+  margin-bottom:10px;
+  border: 1px solid #ECECEC;
+  box-sizing: border-box;
+  border-radius:5px;
+  background-color: #FEF5E0;
+}
+
+.flowsmhcolumn {
+  position:relative;
+  box-sizing: border-box;
+  width: 100%;
+  margin: 0 auto;
+  padding:10px 15px;
+  display: flex;
+}
+
+.flowsmhcolumn:hover {
+  text-decoration: underline;
+}
+
+.flowsmhicon {
+  display: inline-block;
+  width: 35px;
+  height:35px;
+  margin-right:15px;
+}
+
+.flowsmhtitle {
+  font-size: 15px;
+  width: 50%;
+  display: inline-block;
+  line-height: 40px;
+}
+
+.flowsmhright {
+  position: absolute;
+  right:10px;
+  padding-top:10px;
+}
+
+.flowsmhtext {
+  display:none;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 15px;
+}
+
+.flowsmhbold {
+  font-weight: bold;
+  font-size:12px;
+  margin-bottom: 10px;
+ }
+
+.flowsmhnormal {
+  font-size:12px;
+  margin-bottom: 10px;
+}
+
+.open {
+  display: block;
+}
+
+
+
+
+
+/* なぜバンコクなのか？ */
+.whybankog {
+  padding: 20px 15px;
+}
+
+.why {
+  width:90%;
+}
+
+.whytitle {
+  text-align: center;
+}
+
+.whytext {
+  font-size: 12px;
+}
+
+.bankogmerit li {
+  font-size: 12px;
+}
+
+.whyfoot {
+  font-size: 15px;
+}
+
+/* iSara受講生への参加特典 */
+.sankatokuten {
+  padding:20px 0;
+}
+
+.tokutentitle {
+  font-size: 18px;
+  margin:0 0 20px 0;
+}
+
+.tokutensub {
+  font-size:12px;
+}
+
+.tokutens {
+  padding: 0;
+  margin:40px auto 0 auto;
+}
+
+.Ttitle {
+  position: absolute;
+  top:-5%;
+  left:25%;
+  font-size:18px;
+}
+
+.tokutopic {
+  padding: 30px;
+  width: 90%;
+  box-sizing: border-box;
+  flex-wrap: wrap;
+}
+
+.tokuten {
+  width:90%;
+  box-sizing: border-box;
+  background-color: transparent;
+  margin: 15px auto;
+  border-radius: 0;
+  padding: 3%;
+  display: flex;
+}
+
+.tokutitle {
+  width: 60px;
+  height: 60px;
+  font-size:12px;
+  margin-bottom: 0;
+  text-align: center;
+  background-color:white;
+  border-radius: 50%;
+  line-height:60px;
+}
+
+.tokutext {
+  width: 77%;
+  margin-left: 5%;
+  padding-top: 10px;
+  font-size: 12px;
+  color: white;
+}
+
+/* iSaraはボランティアではありません。 */
+.vol {
+  padding:20px 10px;
+}
+
+.voltitle {
+  font-size: 18px;
+}
+
+.voltext {
+  font-size: 12px;
+}
+
+.whitewaku {
+  padding: 15px 0;
+  margin: 20px 0;
+}
+
+.whitewaku::before {
+  width:30px;
+  height:30px;
+  margin-bottom: 10px;
+}
+
+.volwaku {
+  margin:20px 10px 20px 10px;
+  padding: 10px;
+  font-size: 18px;
+  display: inline-block;
+}
+
+.whitewaku::after {
+  width:30px;
+  height:30px;
+}
+
+/* 創業者からのメッセージ */
+.message {
+  padding: 20px 0;
+}
+
+.messtitle {
+  font-size: 18px;
+  margin: 20px 0 35px 0;
+}
+
+.messsub {
+  font-size: 15px;
+}
+
+.messagecolumn {
+  width:100%;
+  margin: 40px auto 0 auto;
+  flex-wrap: wrap;
+}
+
+.messleft {
+  display: inline-block;
+  width:90%;
+  margin:0 auto;
+}
+
+.messright {
+  width: 90%;
+  box-sizing: border-box;
+  margin:15px auto 0 auto;
+}
+
+.messlist {
+  font-size: 14px;
+}
+.messcom {
+  font-size:14px;
+  margin-bottom:10px;
+}
+
+/* 資料請求フォーム */
+.seikyu {
+  padding:20px 15px;
+}
+
+.seikyutitle {
+  font-size:18px;
+}
+
+.seikyusub {
+  font-size: 12px;
+}
+
+.forms {
+  width:90%;
+  padding:40px 0;
+  margin: 0 auto;
+  font-size: 14px;
+}
+
+/* よくある質問 */
+.FAQ {
+  padding:20px 15px;
+}
+
+.FAQtitle {
+  font-size:18px;
+  margin:20px 0;
+}
+
+.faq-list {
+  width:95%;
+  margin:0 auto;
+}
+
+.FAQlist {
+  width: 100%;
+}
+
+.question {
+  padding:10px;
+  font-size:14px;
+}
+
+
+
+} 

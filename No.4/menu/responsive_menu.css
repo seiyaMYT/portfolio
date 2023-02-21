@@ -1,0 +1,21 @@
+ @media screen and (max-width:540px) {
+  /*画面サイズが540pxまではここを読み込む*/
+  /* 共通 */
+  .smh {
+    display: block;
+  }
+
+  .container0 {
+    width: 100%;
+  }
+
+  .PCdisplay {
+    display: none;
+  }
+
+  /* ヘッダー */ 
+  header {
+    padding:0;
+  }
+
+}
